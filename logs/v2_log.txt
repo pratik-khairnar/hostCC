@@ -1,0 +1,3 @@
+[INFO] Initialized Version 2: hostCC Baseline Simulation
+[INFO] Starting Version 2: hostCC Baseline simulation for 100 steps
+[INFO] Simulation Version 2: hostCC Baseline completed

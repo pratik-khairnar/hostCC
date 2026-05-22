@@ -1,0 +1,15 @@
+# Python dependencies for hostCC simulation
+
+# Core simulation
+random-seed>=0.3  # For controlled randomization
+
+# Data analysis (for future graph generation)
+pandas>=1.3.0
+numpy>=1.20.0
+matplotlib>=3.3.0
+
+# CSV handling (built-in, but explicitly documenting)
+# csv module is part of Python standard library
+
+# Optional: for enhanced visualization later
+seaborn>=0.11.0

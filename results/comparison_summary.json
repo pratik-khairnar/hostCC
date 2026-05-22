@@ -1,0 +1,56 @@
+{
+  "v1": {
+    "description": "Normal TCP",
+    "summary": {
+      "version": "Version 1: Normal TCP",
+      "global": {
+        "total_throughput": 4.28,
+        "total_packets_sent": 588,
+        "total_packets_dropped": 20,
+        "packet_loss_rate": 0.034013605442176874,
+        "avg_rtt": 10,
+        "avg_load": 148.0
+      },
+      "max_host_occupancy": 196,
+      "avg_host_occupancy": 125.44,
+      "max_cwnd": 240,
+      "avg_cwnd": 135.69
+    }
+  },
+  "v2": {
+    "description": "hostCC Baseline",
+    "summary": {
+      "version": "Version 2: hostCC Baseline",
+      "global": {
+        "total_throughput": 7.87,
+        "total_packets_sent": 954,
+        "total_packets_dropped": 9,
+        "packet_loss_rate": 0.009433962264150943,
+        "avg_rtt": 10,
+        "avg_load": 141.2
+      },
+      "max_host_occupancy": 147,
+      "avg_host_occupancy": 78.89,
+      "max_cwnd": 189,
+      "avg_cwnd": 139.98
+    }
+  },
+  "v3": {
+    "description": "Improved hostCC",
+    "summary": {
+      "version": "Version 3: Improved hostCC",
+      "global": {
+        "total_throughput": 9.38,
+        "total_packets_sent": 1043,
+        "total_packets_dropped": 11,
+        "packet_loss_rate": 0.010546500479386385,
+        "avg_rtt": 10,
+        "avg_load": 6.8
+      },
+      "max_host_occupancy": 111,
+      "avg_host_occupancy": 44.92,
+      "max_cwnd": 154,
+      "avg_cwnd": 111.55
+    }
+  }
+}
